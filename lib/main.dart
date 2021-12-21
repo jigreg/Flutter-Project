@@ -13,15 +13,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold( //상중하로 레이아웃 나누는 것
         appBar: AppBar(
-          title: Text('앱임'),
+          actions: [Icon(Icons.search),Icon(Icons.menu),Icon(Icons.notifications)],
+          title: Text('금호동3가'),
         ),
-        body: Align(
-          alignment: Alignment.topCenter,
-          child: Container(
-            width: double.infinity, height:  50, color: Colors.blue,
-            ),
-        ),
-        )
-    );
+        body: SizedBox(
+          ),
+          )
+        );
   }
 }
