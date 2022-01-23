@@ -17,12 +17,6 @@ class MyApp extends StatelessWidget {
           children: [
             Text('Hello'),
             Text('Hello'),
-            Text('Hello'),
-            Text('Hello'),
-            Text('Hello'),
-            Text('Hello'),
-            Text('Hello'),
-            Text('Hello'),
           ],
         ),
           )
