@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
             Text('Hello'),
             Text('Hello'),
             Text('Hello'),
+            Text('Hello'),
           ],
         ),
           )
@@ -31,7 +32,7 @@ class ShopItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      child: Text('안'),
+      child: Text('안녕'),
     );
   }
 }
