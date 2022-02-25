@@ -33,6 +33,7 @@ class ShopItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       child: Text('안녕'),
+      child: Text('안녕'),
     );
   }
 }
